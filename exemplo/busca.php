@@ -1,5 +1,7 @@
 <?php
 
+include_once('../Busca.php');
+
 $keywords = '';
 $pagina = (isset($_GET['p'])) ? (int)$_GET['p'] : 1;
 
